@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="pt-br">
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Baddie Blog</title>
+ <style> * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+ body { background: linear-gradient(to bottom, #f7e6d5, #d6b89c); color: #2b1b12; }
+ header { background-image: url('https://i.pinimg.com/1200x/c4/d7/05/c4d70535c6add7adc84adc083e9b11c5.jpg'); background-size: cover; background-position: center; height: 350px;
+ display: flex; flex-direction: column; justify-content: center; align-items: center;
+ text-align: center; color: white; position: relative; }
+ header::before { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.45); }
+ header h1, header p { position: relative; z-index: 1; }
+ header h1 { font-size: 4rem; text-transform: uppercase; letter-spacing: 4px; color: #f8d89a; text-shadow: 3px 3px 10px black; }
+ header p { margin-top: 10px; font-size: 1.2rem; background: rgba(0, 0, 0, 0.5); padding: 10px 20px; border-radius: 30px; }
+ main { max-width: 900px; margin: 50px auto; padding: 20px; }
+ .post { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.2); transition: 0.3s; }
+ .post:hover { transform: scale(1.02); }
+ .post img { width: 100%; height: 350px; object-fit: cover; }
+ .conteudo { padding: 30px; }
+ .conteudo h2 { font-size: 2rem; color: #8b4513; margin-bottom: 10px; }
+ .autor { color: #777; margin-bottom: 20px; font-style: italic; }
+ .conteudo p { line-height: 1.8; font-size: 1.1rem; }
+ button { margin-top: 25px; padding: 12px 25px; border: none; border-radius: 30px; background: #000; color: #f8d89a; font-weight: bold; cursor: pointer; transition: 0.3s; }
+ button:hover { background: #8b4513; transform: scale(1.05); }
+ footer { margin-top: 60px; padding: 25px; text-align: center; background: black; color: #f8d89a; }
+ @media (max-width: 768px) { header h1 { font-size: 2.5rem; }
+ .post img { height: 250px; } } </style></head>
+<body>
+ <header> <h1>Baddie Blog</h1> <p>Get Ready With Me • Fashion • Glow Up • Lifestyle</p> </header>
+ <main>
+ <section class="post">
+ <img src="https://i.pinimg.com/736x/cc/26/cb/cc26cbcf039b0fa427459696b62d1c34.jpg" alt="Moda animal print">
+ <div class="conteudo">
+ <h2>Meu primeiro post</h2>
+ <p class="autor"> Por: Rafaella Firmino </p>
+ <p> Bem-vinda ao meu universo baddie Aqui você encontra muita atitude, looks poderosos, maquiagem glam, autoestima elevada e aquela energia de protagonista. Porque ser básica nunca foi uma opção. </p>
+ <button>LER MAIS</button>
+ </div>
+ </section>
+ </main>
+ <footer> © 2026 • Baddie Blog by Rafaella </footer>
+</body>
+</html>
